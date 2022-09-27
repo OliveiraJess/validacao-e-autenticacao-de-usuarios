@@ -1,4 +1,6 @@
 import React from 'react';
+import AuthForm from '../Login/AuthForm';
+import AuthFormRegist from '../Login/AuthFormRegister';
 
 import { Container } from './styles';
 
@@ -12,6 +14,8 @@ function Main() {
       /> */}
       <h1>Título!</h1>
       <p>Template básico.</p>
+      {/* <AuthFormRegist/> */}
+      <AuthForm/>
     </Container>
   );
 }
