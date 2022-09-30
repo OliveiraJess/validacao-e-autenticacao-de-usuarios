@@ -11,8 +11,8 @@ export const AuthProvider = ({ children }) => {
     const login = (email, password) => {
         console.log("login auth", { email, password });
 
-        if (password === "teste123") {
-            setUser({ id: "123", email });
+        if (password === "teste123#" && email === "teste@exemplo.com") {
+            setUser({ id: "123" });
             navigate('/');
         } 
     };
