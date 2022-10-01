@@ -1,26 +1,34 @@
+@import '../../variaveis.css';
+
 #login {
-    align-items    : center;
-    display        : flex;
-    flex-direction : column;
-    justify-content: center;
-    min-height     : 100vh;
-    padding        : 0 2rem;
+    align-items     : center;
+    background-color: var(--container);
+    display         : flex;
+    flex-direction  : column;
+    font-family     : var(--font);
+    justify-content : center;
+    min-height      : 100vh;
+    padding         : 0 2rem;
 }
 
 #login .form {
-    background-color: #f1f1f1;
-    max-width: 480px;
-    padding: 0.5rem;
-    width: 100%;
+    background-color: var(--purpleLight);
+    max-width       : 480px;
+    padding         : 0.5rem;
+    width           : 100%;
+    border-radius   : 10px;
+    padding-top     : 1.5rem;
 }
 
 
 #login .field {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
 }
 
 #login .field label {
+    padding: 0.3rem;
     display: block;
+    font-weight:600;
 }
 
 #login .field input {
@@ -28,6 +36,21 @@
 }
 
 #login .actions {
-    text-align: center;
     margin-top: 0.5rem;
+    text-align: center;
+}
+
+.buttonSubmit {
+    background-color: var(--container);
+    cursor          : pointer;
+    border          : none;
+    font-family     : inherit;
+    font-size       : 1rem;
+    border-radius   : 10px;
+    padding         : 0.5rem;
+
+}
+
+.buttonSubmit:hover {
+    background-color: var(--lilac);
 }

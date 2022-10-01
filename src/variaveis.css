@@ -1,0 +1,17 @@
+:root {
+
+    --light      : #EEF1FF;
+    --container  : #D2DAFF;
+    --blueLight  : #AAC4FF;
+    --blue       : #87A2FB;
+    --purpleLight: #B1B2FF;
+    --purple     : #6F38C5;
+    --lilac      : #A460ED;
+
+    --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+::selection {
+    color: var(--purple);
+}

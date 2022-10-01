@@ -18,10 +18,9 @@ const LoginPage = () => {
         <div id="login">
 
             <h1 className="title">Login do Sistema</h1>
-            <p>
+            {/* <p>
                 {String(authenticated)}
-            </p>
-
+            </p> */}
             <form className="form" onSubmit={handleSubmit}>
 
                 <div className="field">
@@ -43,7 +42,7 @@ const LoginPage = () => {
                         onChange={(event) => setPassword(event.target.value)} />
                 </div>
                 <div className="actions">
-                    <button type="submit">Entrar</button>
+                    <button className="buttonSubmit" type="submit">Entrar</button>
                 </div>
 
             </form>

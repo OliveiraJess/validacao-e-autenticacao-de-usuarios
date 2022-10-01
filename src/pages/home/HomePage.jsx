@@ -11,9 +11,9 @@ const HomePage = () => {
     return (
         <div>
             <h1>Home Page</h1>
-            <p>
+            {/* <p>
                 {String(authenticated)}
-            </p>
+            </p> */}
             <button onClick={handleLogout}>Logout</button>
         </div>
 
