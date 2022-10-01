@@ -11,6 +11,12 @@
     padding         : 0 2rem;
 }
 
+.title {
+    font-size    : 1.7rem;
+    font-weight  : 900;
+    margin-bottom: 0.8rem;
+}
+
 #login .form {
     background-color: var(--purpleLight);
     border-radius   : 10px;
@@ -25,9 +31,9 @@
 }
 
 #login .field label {
-    display: block;
-    font-weight:600;
-    padding: 0.3rem;
+    display    : block;
+    font-weight: 600;
+    padding    : 0.3rem;
 }
 
 #login .field input {
@@ -55,6 +61,6 @@
 }
 
 input:focus {
-    outline   : 0;
+    outline    : 0;
     font-family: inherit;
 }

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../../auth/auth";
+import "../home/homePage.css"
 
 const HomePage = () => {
     const {authenticated, logout } = useContext(AuthContext);
@@ -9,12 +10,12 @@ const HomePage = () => {
     }
 
     return (
-        <div>
-            <h1>Home Page</h1>
+        <div className="container">
+            <h1 className="title">Home Page</h1>
             {/* <p>
                 {String(authenticated)}
             </p> */}
-            <button onClick={handleLogout}>Logout</button>
+            <button className="buttonLogout" onClick={handleLogout}>Logout</button>
         </div>
 
     );

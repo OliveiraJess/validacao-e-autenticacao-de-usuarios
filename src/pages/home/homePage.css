@@ -1,0 +1,7 @@
+@import '../../variaveis.css';
+
+.container {
+    background-color: var(--light);
+    height: 100vh;
+    margin: 0;
+}
