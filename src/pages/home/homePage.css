@@ -1,7 +1,65 @@
 @import '../../variaveis.css';
 
 .container {
-    background-color: var(--light);
-    height: 100vh;
-    margin: 0;
+    background-color: var(--container);
+    min-height      : 100vh;
+}
+
+.header {
+    background-color: var(--purple);
+    height          : 50px;
+    width           : 100%;
+
+}
+
+.header__button {
+    justify-items: flex-end;
+}
+
+.card {
+    background-image   : url("../../images/image.jpg");
+    background-position: center;
+    background-repeat  : no-repeat;
+}
+
+.title {
+    font-size    : 1.7rem;
+    font-weight  : 900;
+    margin-bottom: 0.8rem;
+    margin-top   : 1.5rem;
+    text-align   : center;
+}
+
+.cardButton {
+    text-align: center;
+    padding   : 1.5rem;
+}
+
+.buttonLogout,
+.buttonBack {
+    display         : inline-block;
+    background-color: var(--purpleLight);
+    border          : none;
+    border-radius   : 10px;
+    cursor          : pointer;
+    font-family     : inherit;
+    font-size       : 1rem;
+    padding         : 0.5rem;
+    margin          : 1rem;
+}
+
+@media screen and (min-width: 320px) {
+    .card {
+        height         : 40vh;
+        background-size: contain;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        height         : 60vh;
+        background-size: contain;
+
+    }
 }
