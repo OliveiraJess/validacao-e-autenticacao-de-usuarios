@@ -13,11 +13,10 @@
 
 #login .form {
     background-color: var(--purpleLight);
+    border-radius   : 10px;
     max-width       : 480px;
     padding         : 0.5rem;
     width           : 100%;
-    border-radius   : 10px;
-    padding-top     : 1.5rem;
 }
 
 
@@ -26,9 +25,9 @@
 }
 
 #login .field label {
-    padding: 0.3rem;
     display: block;
     font-weight:600;
+    padding: 0.3rem;
 }
 
 #login .field input {
@@ -42,15 +41,20 @@
 
 .buttonSubmit {
     background-color: var(--container);
-    cursor          : pointer;
     border          : none;
+    border-radius   : 10px;
+    cursor          : pointer;
     font-family     : inherit;
     font-size       : 1rem;
-    border-radius   : 10px;
     padding         : 0.5rem;
 
 }
 
 .buttonSubmit:hover {
     background-color: var(--lilac);
+}
+
+input:focus {
+    outline   : 0;
+    font-family: inherit;
 }

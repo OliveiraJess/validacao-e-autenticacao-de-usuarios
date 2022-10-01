@@ -29,6 +29,7 @@ const LoginPage = () => {
                         type="email"
                         name="email"
                         id="email"
+                        placeholder="Digite o email"
                         value={email}
                         onChange={(event) => setEmail(event.target.value)} />
                 </div>
@@ -38,6 +39,7 @@ const LoginPage = () => {
                         type="password"
                         name="password"
                         id="password"
+                        placeholder="Digite a senha"
                         value={password}
                         onChange={(event) => setPassword(event.target.value)} />
                 </div>
